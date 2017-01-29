@@ -12,6 +12,8 @@
 		2FFB866B1E3E4C9200667DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB86691E3E4C9200667DCC /* Main.storyboard */; };
 		2FFB866D1E3E4C9200667DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB866C1E3E4C9200667DCC /* Assets.xcassets */; };
 		2FFB86701E3E4C9200667DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB866E1E3E4C9200667DCC /* LaunchScreen.storyboard */; };
+		2FFB867A1E3E569700667DCC /* CustomOverlayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FFB86791E3E569700667DCC /* CustomOverlayView.xib */; };
+		2FFB867C1E3E56B200667DCC /* CustomOverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFB867B1E3E56B200667DCC /* CustomOverlayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		2FFB866C1E3E4C9200667DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FFB866F1E3E4C9200667DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2FFB86711E3E4C9200667DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FFB86791E3E569700667DCC /* CustomOverlayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomOverlayView.xib; sourceTree = "<group>"; };
+		2FFB867B1E3E56B200667DCC /* CustomOverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomOverlayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				2FFB866C1E3E4C9200667DCC /* Assets.xcassets */,
 				2FFB866E1E3E4C9200667DCC /* LaunchScreen.storyboard */,
 				2FFB86711E3E4C9200667DCC /* Info.plist */,
+				2FFB86791E3E569700667DCC /* CustomOverlayView.xib */,
+				2FFB867B1E3E56B200667DCC /* CustomOverlayView.swift */,
 			);
 			path = CustomCamera;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 				2FFB86701E3E4C9200667DCC /* LaunchScreen.storyboard in Resources */,
 				2FFB866D1E3E4C9200667DCC /* Assets.xcassets in Resources */,
 				2FFB866B1E3E4C9200667DCC /* Main.storyboard in Resources */,
+				2FFB867A1E3E569700667DCC /* CustomOverlayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +146,7 @@
 			files = (
 				2FFB86681E3E4C9200667DCC /* ViewController.swift in Sources */,
 				2FFB86661E3E4C9200667DCC /* AppDelegate.swift in Sources */,
+				2FFB867C1E3E56B200667DCC /* CustomOverlayView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +310,7 @@
 				2FFB86761E3E4C9200667DCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
